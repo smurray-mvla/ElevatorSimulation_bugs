@@ -71,7 +71,7 @@ public class ElevatorSimController {
 		int time=0, numPass=0,fromFloor=0, toFloor=0;
 		boolean polite = true;
 		int wait = 1000;
-		boolean firstLine = true;
+		boolean firstLine = false;
 		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
 			String line;
 			while ((line = br.readLine())!= null) {
