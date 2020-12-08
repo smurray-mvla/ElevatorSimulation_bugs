@@ -149,7 +149,7 @@ public class ElevatorSimulation extends Application {
  		handleStop();	
 
  		t = new Timeline(new KeyFrame(
-				Duration.millis(100),
+				Duration.millis(50),
 				ae -> controller.stepSim()));
 		t.setCycleCount(Animation.INDEFINITE);
 
