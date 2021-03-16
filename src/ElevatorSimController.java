@@ -74,6 +74,7 @@ public class ElevatorSimController {
 		boolean firstLine = false;
 		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
 			String line;
+			br.readLine();
 			while ((line = br.readLine())!= null) {
 				if (firstLine) {
 					firstLine = false;
